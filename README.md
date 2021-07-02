@@ -3,7 +3,7 @@
 # Introduction
 For this project, our team was assigned with analyzing trends in Family and Children's Service calls to find any trends in call content for the years 2019 and 2020. For this project, our team used Python for data analysis and PowerPoint for presenting our findings.
 
-I was assigned with finding the percentage of TN calls versus out of state calls, along with the percentage of TN imminent risk calls versus out of state imminent risk calls.
+I was assigned with finding the percentage of TN calls versus out-of-state calls, along with the percentage of TN imminent risk calls versus out-of-state imminent risk calls.
 
 Data Sources: Due to the sensitive nature of the data provided, I am unable to provide the data used for this project.
 
@@ -17,7 +17,7 @@ Data Sources: Due to the sensitive nature of the data provided, I am unable to p
 
 ![Packages](./assets/packages.jpg)
 
-2. For the second step, I needed to import the datasets provided, however the encoding used for the datasets was different than usual, so our team had to find an encoding that would work with the datasets.
+2. For the second step, I needed to import the datasets provided, however, the encoding used for the datasets was different than usual, so our team had to find an encoding that would work with the datasets.
 
 ![CSV Read](./assets/csv_read.jpg)
 
@@ -29,25 +29,27 @@ Data Sources: Due to the sensitive nature of the data provided, I am unable to p
 
 ![Risk Calls](./assets/risk_calls.jpg)
 
-5. For the fifth step, I took the state province column from the new dataframe and did a value count to find how many calls were imminent risk from out of state in 2020.
+5. For the fifth step, I took the state province column from the new dataframe and did a value count to find how many calls were imminent risk from out-of-state in 2020.
 
-![Placeholder]
+![Imminent Risk](./assets/imminent_risk.jpg)
 
-6. Next, I needed to create a dictionary to find the actual percentage of TN calls versus out of state calls. After creating a dictionary, I made a for loop to run through the dictionary, summing up the total count of calls, multiplying it by one hundred and dividing by the sum to find the final percentages.
+6. Next, I needed to create a dictionary to find the actual percentage of TN calls versus out-of-state calls. After creating a dictionary, I made a for loop to run through the dictionary, summing up the total count of calls, multiplying it by one hundred, and dividing by the sum to find the final percentages.
 
-![Placeholder]
+![Crisis Call Dictionary](./assets/crisis_call_dictionary.jpg)
 
 7. For the seventh step, I created another for loop to fill the empty dictionary by dividing the crisis calls dictionary values by the total crisis calls to create the needed percentages.
 
-![Placeholder]
+![Percentage For Loop](./assets/percentage_for_loop.jpg)
 
-8. Next, I create a plot that will show the final results. The bar plot required getting the range and length of the crisis call ratio dictionary made earlier as my x, and a list of all the values from that dictionary as my y. A similar process was used when plotting the xticks.
+8. Next, I create a plot that will show the final results. The bar plot required getting the range and length of the crisis call ratio dictionary made earlier as my x and a list of all the values from that dictionary as my y. A similar process was used when plotting the x-ticks.
 
-![Placeholder]
+![First Chart](./assets/first_chart.jpg)
 
-9. I repeated this process for the other two charts I created. Those being the percentage of TN calls versus out of state calls for the years 2019 and 2020.
+9. I repeated this process for the other two charts I created. Those being the percentage of TN calls versus out-of-state calls for the years 2019 and 2020.
 
-![Placeholder]
+![Second Chart](./assets/second_chart.jpg)
+
+![Third Chart](./assets/third_chart.jpg)
 
 10. Lastly, the final presentation is available to view below.
 
